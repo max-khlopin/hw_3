@@ -21,9 +21,8 @@ let getRequest = (url) => {
   })
 };
 
-
 class ProductItem {
-    constructor(product, img='https://via.placeholder.com/200x150') { // img = './img/img.jpg'
+    constructor(product, img='https://via.placeholder.com/200x150') {
         this.product_name = product.product_name;
         this.price = product.price;
         this.id = product.id;
